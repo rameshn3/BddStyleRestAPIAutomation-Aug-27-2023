@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="4.595" tests="4" skipped="0" failures="0" errors="0">
+<testcase classname="Reqres GET Api feature" name="Get Api to list all users" time="2.15">
+<system-out><![CDATA[
+Given provide valid endpoint to fetch all users.............................passed
+When send the request to the server.........................................passed
+Then I validate the response statuscode 200.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Reqres Delete Api feature" name="Delete API scenario" time="0.47">
+<system-out><![CDATA[
+Given I want to provide valid endpoint......................................passed
+When I send the request to the server.......................................passed
+Then I validate the delete response statuscode..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Reqres Post Api feature" name="reqres post api to create user scenario" time="1.191">
+<system-out><![CDATA[
+Given provide valid endpoint to create user.................................passed
+When I send the request to the server with requestbody......................passed
+Then I validate the create user response status code........................passed
+And validate the create user response body fields...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Reqres PUT Api feature" name="Update user scenario" time="0.516">
+<system-out><![CDATA[
+Given I want to provide valid endpoint to update user.......................passed
+When I send a request to the server with valid request body to update.......passed
+Then I validate update user response status code............................passed
+And validate the update user response body fields...........................passed
+]]></system-out>
+</testcase>
+</testsuite>
